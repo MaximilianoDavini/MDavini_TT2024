@@ -47,12 +47,12 @@ main #home h1 {
     padding-top: 1.5%
 }
 main #home h2 {
-    font-size: ;
+    font-size: 40px;
     color: white;
 }
 main #home h3 {
-    
-    color: white;
+        color: red;
+        text-shadow: black 2px 0 0;
 }
 main #sobre {
     background-color: rgba(172, 172, 172, 0.335);
@@ -72,15 +72,62 @@ main #sobre .img {
     padding: 0;
     opacity: 0.8;
 }
+main #sobre .img p {
+    font-size: 60px;
+    color: rgb(160, 64, 64);
+    text-shadow: rgb(0, 0, 0) 2px 2px 0;
+    position: relative;
+    text-align: left;
+    padding-left: 2px;
+    padding-bottom: 2px;
+}
+/* ESPACIO IMG SEC Y TEXTO */
 .container{
     position: relative;
     margin-top: 10%;
 }
+/* ************ */
 main #sobre p, #sobre h3 {
     position: relative;
     top: 15%;
 }
+
+main #prod {
+    /* background-color: rgba(172, 172, 172, 0.335); */
+    background-image: url(../img/img_terciaria.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode:lighten;
+    height: 1024px;
+    width: 100%;
+    color: white;
+}
+main #prod h3 {
+    font-size: 50px;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 2px 2px 0;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 1.5%
+}
+
+main #cont {
+    background-image: url(../img/contacto_form.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode:lighten;
+    height: 801px;
+    width: 100%;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 2px 2px 0;
+    }
+
 footer {
-        background-color:#0077b6;
+        background-color:#000000;
         border: solid 1px black;
+        padding-top: 1%;
         }
