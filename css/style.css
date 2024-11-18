@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
- 
+
+/* INICIO WEB DEFAULT */
+
 * {
     margin: 0;
     padding: 0;
@@ -123,11 +125,161 @@ main #cont {
     height: 801px;
     width: 100%;
     color: white;
-    text-shadow: rgb(0, 0, 0) 2px 2px 0;
     }
+main #cont h2 {
+    text-shadow: black 2px 0 0;
+}
+
+main #cont #cont_form #form h3 {
+    text-shadow: black 2px 0 0;
+}
 
 footer {
         background-color:#000000;
         border: solid 1px black;
         padding-top: 1%;
         }
+
+/* INICIO WEB RESPONSIVE*/
+
+@media (max-width: 576px) {
+
+    /* HOME RESPONSIVE */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    font-size:x-small;
+}
+
+main #home h1 {
+    font-size: 25px;
+    padding: 15px 10px 2px;
+}
+main #home h2 {
+    font-size: 20px;
+}
+main #home h3 {
+    font-size: 15px;
+}
+/* FIN HOME RESPONSIVE */
+
+/* SOBRE NOSOTROS RESPONSIVE */
+main #sobre {
+    height: 75pc;
+}
+
+main #sobre .img {
+    background-image: url(../img/img_secundaria.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: difference;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 0.8;
+}
+main #sobre .img p {
+    font-size: 40px;
+    color: rgb(160, 64, 64);
+    text-shadow: rgb(0, 0, 0) 2px 2px 0;
+    position: relative;
+    text-align: center;
+}
+
+.container {
+        position: relative;
+        margin-top: 10%;
+        padding: 0;
+        }
+main #sobre h3 {
+    position: relative;
+    top: 15%;
+    font-size: large;
+}
+main #sobre p, #sobre h3 {
+    position: relative;
+    top: 15%;
+    font-size: small;
+}
+/* FIN SOBRE NOSOTROS RESPONSIVE */
+
+/* PRODUCTOS RESPONSIVE*/
+main #prod {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 15px 0 15px 0;
+   }
+
+main #prod h3 {
+    font-size: x-large;
+}
+main #prod p {
+    font-size: small;
+}
+main #prod #prod_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 90px;
+    }
+
+main #prod #prod_card img {
+    /* position: relative;
+    right: 5px; */
+    height: auto;
+    width: 100%;
+}
+
+main #prod #prod_card .col {
+    justify-content: space-between;
+    height: 15px;
+    width: 20%;
+    padding-top: 10px;
+}
+/* FIN PRODUCTOS RESPONSIVE */
+
+/* CONTACTO y FOOTER RESPONSIVE */
+
+main #cont {
+    height: auto;
+    width: 100%;
+    }
+
+    main #cont #cont_form {
+        padding-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+
+main #cont #cont_form h2 {
+    font-size: x-large;
+}
+main #cont #cont_form p {
+    font-size: small;
+}
+main #cont #cont_form #form #form2 {
+    height: auto;
+    width: 300px;
+    position: relative;
+    right: 67px;
+}
+main #cont #cont_form #form #form2 form {
+    height: auto;
+    width: 100%;
+}
+
+footer {
+    font-size:small;
+}
+/* FIN CONTACTO y FOOTER RESPONSIVE */
+}
