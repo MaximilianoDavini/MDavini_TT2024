@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
  
 * {
     margin: 0;
@@ -6,20 +7,79 @@
     font-family: "Roboto Condensed", sans-serif;
 }
 
-body
-{
-    background-color: #f8f9fa;
-}
-
 header {
-background-color:#0077b6;
+background-color:black;
 border: solid 1px black;
 }
 header nav a {
     color: white;
     text-decoration: none;
     }
+main #home {
 
+    background-image: url(../img/img_principal.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode:lighten;
+    height: 1024px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main #home .back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top:30%;
+    font-size:100px;
+    background-color: #0000008f;
+}
+main #home h1 {
+    font-size: 50px;
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 1.5%
+}
+main #home h2 {
+    font-size: ;
+    color: white;
+}
+main #home h3 {
+    
+    color: white;
+}
+main #sobre {
+    background-color: rgba(172, 172, 172, 0.335);
+    height: 1024px;
+    width: 100%;
+    }
+main #sobre .img {
+    background-image: url(../img/img_secundaria.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode:lighten;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 0.8;
+}
+.container{
+    position: relative;
+    margin-top: 10%;
+}
+main #sobre p, #sobre h3 {
+    position: relative;
+    top: 15%;
+}
 footer {
         background-color:#0077b6;
         border: solid 1px black;

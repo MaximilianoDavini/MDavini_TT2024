@@ -29,18 +29,25 @@
 </header>    
     <main class="nav justify-content-center text-center">
 <section id="home">
+  <div class="back">
     <h1>Bienvenido a mi proyecto</h1>
     <h2>Curso: Talento Tech 2024</h2>
     <h3>Maximiliano Davini</h3>
+  </div>
 </section>
 <section id="sobre">
-    <h3>¿Quienes somos?</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus in impedit assumenda neque voluptas debitis nostrum, accusamus quia magni! Voluptas, aliquam blanditiis quo exercitationem facere voluptatum voluptatem et ullam beatae.</p>
-    <h3>¿Por que elegirnos?</h3>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio blanditiis a illo iusto omnis. Odio, earum tempore quis nemo, aliquid accusamus unde minus dignissimos officiis nisi perspiciatis assumenda in quo!</p>
+  <div class="img"></div>
+     <div class="container text-center">
+      <div class="row row-cols-2">
+        <div class="col"> <h3>¿Quienes somos?</h3></div>
+        <div class="col"><h3>¿Por que elegirnos?</h3></div>
+        <div class="col"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem consequatur deserunt numquam voluptatibus, nam vero ducimus odit distinctio corrupti provident animi minima nobis, eos praesentium rem excepturi maxime. Nobis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia in laudantium vero optio ad, magnam deleniti culpa fuga laborum voluptatem facere officiis totam enim eveniet eaque non sequi, similique cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio blanditiis a illo iusto omnis. Odio, earum tempore quis nemo, aliquid accusamus unde minus dignissimos officiis nisi perspiciatis assumenda in quo!</p></div>
+        <div class="col"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatem consequatur deserunt numquam voluptatibus, nam vero ducimus odit distinctio corrupti provident animi minima nobis, eos praesentium rem excepturi maxime. Nobis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia in laudantium vero optio ad, magnam deleniti culpa fuga laborum voluptatem facere officiis totam enim eveniet eaque non sequi, similique cum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio blanditiis a illo iusto omnis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, omnis officia dicta id eveniet reprehenderit minus explicabo saepe doloremque sed non libero rerum cumque provident similique repellendus ipsum corporis sequi.</p></div>
+      </div>
+    </div>
 </section>
 <section class="d-flex flex-column" id="prod">
-    <h3>Productos</h3>
+    <h3>Productos & Servicios</h3>
     <div class="d-flex flex-row justify-content-center ">
     <div class="card" style="width: 18rem;">
         <img src="..." class="card-img-top" alt="...">
@@ -71,12 +78,12 @@
 <section class="form-control form-control-lg text-center w-50 p-3" id="cont">
     <h3>Contacto:</h3>
     <form class="d-flex flex-column" action="https://formspree.io/f/xyzypgba" method="POST">
-        <label class="form-labe" for="nombre">Ingresa tu Nombre:</label>
-        <input class="form-control" type="text" name="nombre" placeholder="Pepe argento">
-        <label class="form-labe" for="mail">Ingresa tu Mail:</label>
-        <input class="form-control" type="email" name="mail" placeholder="tu@mail.com">
-        <label class="form-labe" for="msj">Ingresa tu Mensaje:</label>
-        <textarea class="form-control" name="message" placeholder="Escribir..."></textarea>
+        <label class="form-label text-center" for="nombre">Ingresa tu Nombre:</label>
+        <input class="form-control text-center" type="text" name="nombre" placeholder="Pepe argento">
+        <label class="form-label  text-center" for="mail">Ingresa tu Mail:</label>
+        <input class="form-control  text-center" type="email" name="mail" placeholder="tu@mail.com">
+        <label class="form-label  text-center" for="msj">Ingresa tu Mensaje:</label>
+        <textarea class="form-control  text-center" name="message" placeholder="Escribir..."></textarea>
         <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
     </section>
