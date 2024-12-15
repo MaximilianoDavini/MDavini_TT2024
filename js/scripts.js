@@ -55,3 +55,10 @@ if (resultado === true) {
     window.alert('Mensaje cancelado.');
 }
 }
+
+fetch('https://jsonplaceholder.typicode.com/users/1')
+.then(respuesta => respuesta.json())
+.then(datos => {
+  document.querySelector('#nombre').textContent = datos.name
+  document.querySelector('#mail').textContent = datos.email
+})

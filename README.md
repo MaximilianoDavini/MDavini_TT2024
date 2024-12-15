@@ -7,3 +7,5 @@ Creacion de archivo CSS
 Creacion y desarrollo de estructura CSS
 Creación de arhivo JS
 Creacion y desarrollo de estructura JS
+Implementacion consumo API mediante fetch
+Muestra de 2 datos del JSON que se consumio desde la API 
