@@ -1,4 +1,9 @@
+Creacion de archivo README
 - Paso a paso "Proyecto TT 2024"
 Creacion de carpetas a utilizar
 Crecion de archivo index.html
-Creacion de archivo README
+Creacion y desarrollo de estructura HTML
+Creacion de archivo CSS
+Creacion y desarrollo de estructura CSS
+Creación de arhivo JS
+Creacion y desarrollo de estructura JS
